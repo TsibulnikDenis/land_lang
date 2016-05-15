@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Экзамен IELTS в Краснодаре!</title>
+        <title>Языковые школы и лагеря для детей</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,20 +19,9 @@
     <body>
        <div class="container">
        <header class="row">
-            <section class="col-lg-8 left">
+            <section class="col-lg-8">
                 <h1 class="title indent title-ico gradient-blue">Языковые школы и лагеря для детей и подростков.</h1>
                 <img src="img/banner.jpg" alt="IELTS test" class="title-logo" width="100%">
-                <div class="col-sm9  col-lg-12 offer offer-ico indent">
-                    <p>Мы предлагаем:</p>
-                    <ul>
-                        <li>Консультации по регистрации на экзамен</li>
-                        <li>Быструю и понятную регистрацию на экзамен</li>
-                        <li>Комфортные условия во время сдачи экзамена</li>
-                        <li>Быстрый результат после сдачи экзамена</li>
-                        <li>Подробные консультации по вопросам высшего образования за рубежом</li>
-                        <li>Уверенность в подлинности сертификата</li>
-                    </ul>
-            </div>
             </section>
             <section class="col-lg-4">
                <div class="phone-header gradient-blue">
@@ -73,127 +62,126 @@
                         </div>
                     </form>
                     <script>
-document.getElementById('feedback-form').addEventListener('submit', function(evt){
-  var http = new XMLHttpRequest(), f = this;
-  evt.preventDefault();
-  http.open("POST", "contacts.php", true);
-  http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  http.send("inputName=" + f.inputName.value + "inputFamily=" + f.inputFamily.value + "&inputPhone=" + f.inputPhone.value + "&inputEmail=" + f.inputEmail.value);
-  http.onreadystatechange = function() {
-    if (http.readyState == 4 && http.status == 200) {
-      alert('Ваше сообщение получено.\nНаши специалисты ответят Вам в течении 2-х дней.\nБлагодарим за интерес к нашей фирме!');    
-      f.inputEmail.removeAttribute('value'); // очистить поле сообщения (две строки)
-      f.inputEmail.value='';
-    }
-  }
-  http.onerror = function() {
-    alert('Извините, данные не были переданы');
-  }
-}, false);
-</script>
+                        document.getElementById('feedback-form').addEventListener('submit', function(evt){
+                          var http = new XMLHttpRequest(), f = this;
+                          evt.preventDefault();
+                          http.open("POST", "contacts.php", true);
+                          http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                          http.send("inputName=" + f.inputName.value + "inputFamily=" + f.inputFamily.value + "&inputPhone=" + f.inputPhone.value + "&inputEmail=" + f.inputEmail.value);
+                          http.onreadystatechange = function() {
+                            if (http.readyState == 4 && http.status == 200) {
+                              alert('Ваше сообщение получено.\nНаши специалисты ответят Вам в течении 2-х дней.\nБлагодарим за интерес к нашей фирме!');    
+                              f.inputEmail.removeAttribute('value'); // очистить поле сообщения (две строки)
+                              f.inputEmail.value='';
+                            }
+                          }
+                          http.onerror = function() {
+                            alert('Извините, данные не были переданы');
+                          }
+                        }, false);
+                    </script>
                 </div>
             </section>
         </header>
-        <section class="date date-ico indent">
-            <h2 class="">Ближайшие даты проведения экзамена IELTS в Краснодаре:</h2>
-            <p class="text-warning">Стоимость экзамена – 22500&nbsp;руб.</p>
-            <table class="table-date table">
-               <caption>
-                <i class="text-warning">Внимание, данная заявка не является регистрацией на экзамен</i>
-            <p>Экзамен проводится официальным аккредитованным центром по приему экзамена IELTS-<a href="http://www.ielts.su/regions">ВКС-IH Moscow IELTS Centre</a></p></caption>
-                <thead>
-                   <tr>
-                        <th>Дата экзамена</th>
-                        <th>Дата окончания регистрации </th>
-                        <th>&nbsp;</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>25.06.2016</td>
-                        <td>14.05.2016</td>
-<!--                        <td class="btn btn-xs gradient-blue">Отправить заявку</td>-->
-                    </tr>
-                    <tr>
-                        <td>24.09.2016</td>
-                        <td>17.08.2016</td>
-<!--                        <td class="btn btn-xs gradient-blue">Отправить заявку</td>-->
-                    </tr>
-                    <tr>
-                        <td>19.11.2016</td>
-                        <td>12.10.2016</td>
-<!--                        <td class="btn btn-xs gradient-blue">Отправить заявку</td>-->
-                    </tr>
-                </tbody>
-            </table>
-            
-        </section>
-        <section class="feature feature-ico indent">
-            <p>IELTS — самый популярный международный экзамен по английскому языку. IELTS необходим при поступлении в большинство международных университетов. Более 9000 государственных и частных компаний в мире признают результаты экзамена IELTS как обязательное условие для дальнейшей работы и взаимодействия.</p>
-        </section>
-        <section class="exam exam-ico indent">
-            <strong>Экзамен IELTS необходим, если вы собираетесь: </strong>
-            <ul>
-                <li>Учиться в зарубежном вузе</li>
-                <li>Иммигрировать в англоязычную страну</li>
-                <li>Устроиться на работу за рубежом</li>
-            </ul>
-            <br>
-            <strong>Экзамен IELTS состоит из 4-х модулей, которые проверяют следующие навыки:</strong>
-            <ul>
-                <li>Письмо (Writing)</li>
-                <li>Чтение (Reading)</li>
-                <li>Аудирование (Listening)</li>
-                <li>Разговорная речь (Speaking)</li>
-            </ul>
-            <br>
-            <dl>
-               <strong>В зависимости от целей кандидата, экзамен IELTS предлагает два варианта тестирования:</strong>
-               <br>
-               <br>
-                <dt><strong>Academic Module</strong></dt>
-                    <dd>Для тех, кто сдает экзамен с целью учебы за рубежом</dd>
-                    <br>
-               <br>
-                <dt><strong>General Training Module</strong></dt>
-                    <dd>Для тех, кто претендует на трудоустройство или иммиграцию.</dd>
-            </dl>
-            <strong>Страны, которые официально  принимают результаты экзамена  IELTS:</strong>
-            <p>Великобритания, США, Канада, Новая Зеландия, Австралия, Швеция, Ирландия, Франция, Италия, Испания и другие страны. </p>
-        </section>
-        <section class="comment indent ">
-           <h2 class="text-center">Отзывы участников о экзамене IELTS:</h2>
-           <div class="row">
-                <div class="col-sm-4">
-                    <img src="img/foto3.jpg" alt="Отзывы участников о экзамене IELTS" class="img-circle img-responsive center-block foto">
-                    <q class="text-center">Я училась в университете по специальности «международный туризм» и после окончания университета столкнулась с проблемой трудоустройства в международную компанию, поскольку практически везде требовалось подтверждение знания иностранного языка.
-        Сертификат о сдаче экзамена IELTS, который я приложила к своему портфолио помог мне утроиться на хорошую позицию в крупную сеть отелей Нilton в Краснодаре.</q><br>
-                   <p class="text-right">Мария</p>
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/foto1.jpg" alt="Отзывы участников о экзамене IELTS" class="img-circle img-responsive center-block foto">
-                    <q class="text-center">Я готовился самостоятельно и сдал экзамен IELTS на уровне, после чего подал документы и поступил в университет в США. Очень удобно, что нет необходимости никуда ехать, можно подготовиться и сдать экзамен в родном городе.</q>
-                    <p class="text-right">Вартан</p>
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/foto2.jpg" alt="Отзывы участников о экзамене IELTS" class="img-circle img-responsive center-block foto">
-                    <q class="text-center">Я всегда мечтала учиться и работать за рубежом. И в этом году я отправилась в США по программе Professional Career Training. Сертификат о сдаче экзамена помог мне найти отличное место для стажировки.</q>
-                    <p class="text-right">Яна</p>
-                </div>
+        <main>
+            <div class="offer  row">
+                <article class="col-md-10 col-md-offset-1">
+                    <section class="col-lg-6 ">
+                        <img src="img/MergedLayers.png" alt="">
+                        <h2>STAR Academy:</h2>
+                        <ul>
+                            <li>Это эксперты с 20 летним опытом организации детских поездок в зарубежные школы и лагеря</li>
+                            <li>Это родители, которые прекрасно понимают ожидания детей и требования родителей</li>
+                            <li>Это всегда самая выгодная цена на оформление</li>
+                            <li>Это удобоный офис в центре Москвы в 1 минуте от метро и удобным паркингом</li>
+                        </ul>
+                    </section>
+                    <section class="col-lg-6">
+                        <img src="img/star-list.jpg" alt="">
+                        <h2>Мы знаем, как организовать самые интересные и продуктивные каникулы для ваших детей за рубежом.</h2>
+                        <ul>
+                            <li>Улучшение разговорного английского</li>
+                            <li>навыки общения со сверстниками из разных стран</li>
+                            <li>Знакомство с новой страной и традициями</li>
+                            <li>Насыщенные экскурсионная и развлектательная программы</li>
+                        </ul>
+                    </section>
+                    <P class="col-md-10 col-md-offset-1 text-center">Мы работаем с более чем 150 партнерами по всему миру  и готовы предложить максимально подходящий вашему 
+    ребенку вариант отдыха и обучения в любой стране мира.</P>
+                </article>
             </div>
-        </section>
-        <footer class="footer ">
-                <div class="row footer-logo indent" style="">
-                    <img src="img/logo_ielts.jpg" alt="ielts" class="col-sm-4 img-responsive center-block">
-                    <a href="http://krr.startravel.ru/" >
-                        <img src="img/logo_star.jpg" alt="startravel" class="col-sm-4 img-responsive center-block">
-                    </a>
-                    <img src="img/logo_bks.jpg" alt="bks" class="col-sm-4 img-responsive center-block">
+            <arcticle class="col-md-12">
+               <div class="row">
+                    <section class="col-md-6">
+                        <h3>Великобритания,<br>Kingswood</h3>
+                        <img src="img/Layer-24.png" alt="Kingswood">
+                        <p>Цена за 2 недели: £950</p>
+                        <p>Один из лучших лагерей Англии, 
+        куда приезжают и английские школьники. 
+        На территории: парк развлечений, 
+        25-метровый бассейн, кинотеатр, 
+        спортплощадки и танцевальная студия.</p>
+                    </section>
+                    <section class="col-md-6">
+                        <h3>Мальта,<br>Clubclass</h3>
+                        <img src="img/Layer-25.png" alt="Clubclass">
+                        <p>Цена за 2 недели: €1030</p>
+                        <p>Прекрасное сочетание пляжного отдыха 
+        и изучения английского языка. 
+        Лагерь принимает детей в резиденции 
+        Мальтийского Университета, 
+        где есть спортивные площадки и бассейн.</p>
+                    </section>
                 </div>
-             <address class="address-star col-xs-12">г.&nbsp;Краснодар, ул.&nbsp;Красноармейская,&nbsp;55/1,<br> 2&nbsp;этаж&nbsp;11-этажного&nbsp;здания<br>
-              <a href="tel:+78612551055" onclick="yaCounter36885755.reachGoal('call_office_footer1'); return true;">тел:&nbsp;(861)&nbsp;255&#8209;10&#8209;55</a><br>
-               <a href="tel:+78612999927" onclick="yaCounter36885755.reachGoal('call_office_footer2'); return true;">тел:&nbsp;(861)&nbsp;299&#8209;99&#8209;27</a><br>
-               <a href="tel:+79189723220" onclick="yaCounter36885755.reachGoal('call_office_footer3'); return true;">тел:&nbsp;+7(918)&nbsp;972&#8209;3220</a>
+                <div class="row">
+                    <section class="col-md-6">
+                        <h3>США, Лос-Анджелес<br>Embassy English</h3>
+                        <img src="img/Layer-26.png" alt="Embassy English">
+                        <p>Цена за 2 недели: $1295</p>
+                        <p>Лагерь на базе кампуса 
+                            Университета штата Калифорния, 
+                            неподалеку от Диснейленда и студии Universal. 
+                            Насыщенная экскурсионная программа 
+                            по Калифорнии и возможность
+                             взять уроки серфинга.
+                       </p>
+                    </section>
+                    <section class="col-md-6">
+                        <h3>Ирландия, Дублин<br>Emerald</h3>
+                        <img src="img/Layer-27.png" alt="Emerald">
+                        <p>Цена за 2 недели: €1,440</p>
+                        <p>Прекрасная альтернатива для тех, 
+                            кто уже был в Великобритании или 
+                            хочет сэкономить на поездке. 
+                            Дружелюбный и веселый Дублин 
+                            больше всех нравится нашим 
+                            маленьким клиентам
+                       </p>
+                    </section>
+                </div>
+                <p>В указанную стоимость входит: обучение, проживание, трехразовое питание, экскурсии и спортивно-развлекательная программа. 
+
+    Дополнительно оплачивается:  услуги агентства, авиаперелет, виза, мед.страховка.</p>
+            </arcticle>
+            <article class="col-md-8 col-md-offset-2">
+                <img src="img/Layer-23.png" alt="">
+                <p>Мне  очень  понравилось  в Kingswood. В лагере всегда была дружеская и
+                    хорошая  обстановка.  В  фойе  можно  было встретить подростков нашего
+                    возраста  и  тебя  сражу же звали присоединиться я к компании. И было не
+                    важно,  из  какой  ты  страны  или  национальности:  нам  всегда  было
+                    интересно  вместе.  А  на  уроках мы обсуждали именно те темы, которые
+                    были  нам  интересны.  Больше  всего  запомнились поездки вне лагеря -
+                    всегда  неожиданные  и  интересные  Думаю,  я  запомню это лето на всю
+                    жизнь.<br>
+Яна Габриелян, 14 лет, Москва</p>
+            </article>
+        </main>
+        <footer class="footer gradient-blue row">
+            <img src="img/logo.png" alt="star-academy" class="col-md-4">
+             <address class="address-star col-xs-12 col-md-8">г.&nbsp;Краснодар, ул.&nbsp;Красноармейская,&nbsp;55/1,<br> 2&nbsp;этаж&nbsp;11-этажного&nbsp;здания<br>
+                  <a href="tel:+78612551055" onclick="yaCounter36885755.reachGoal('call_office_footer1'); return true;">тел:&nbsp;(861)&nbsp;255&#8209;10&#8209;55</a><br>
+                   <a href="tel:+78612999927" onclick="yaCounter36885755.reachGoal('call_office_footer2'); return true;">тел:&nbsp;(861)&nbsp;299&#8209;99&#8209;27</a><br>
+                   <a href="tel:+79189723220" onclick="yaCounter36885755.reachGoal('call_office_footer3'); return true;">тел:&nbsp;+7(918)&nbsp;972&#8209;3220</a>
              </address>
         </footer>
         </div>
