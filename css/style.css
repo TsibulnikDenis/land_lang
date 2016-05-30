@@ -8,6 +8,10 @@ body{
     background: url(../img/1.png) 0 50% no-repeat;
     padding: 3.529em 4.412em; 
 }
+main{
+    background-color: #ffffff;
+    padding-top: 40px;
+}
 .gradient-blue{
     background: -webkit-linear-gradient(90deg, #19affc 0%, #0273b3 100%);
     background: -moz-linear-gradient(90deg, #19affc 0%, #0273b3 100%);
@@ -89,10 +93,7 @@ input{
     text-align: center;
     font-size: 2.471em;
 }
-.offer,
-.footer{
-    background-color: #ffffff;
-}
+
 @media (min-width: 750px){
     .indent{
     padding: 2.235em 1.529em;
@@ -210,46 +211,93 @@ input{
 .offer{
     color: #8f8f8f;
     font-family: Verdana;
-	background-color:#f7f7f7;
     font-size: 0.986em;
 }
 .action{
     font-size: 29.23px;
     width: 100%
 }
-.table-date{
-    caption-side: bottom;
-}
-.feature,
-.comment{
-    color: #8e8e8e;
-    font-size: 0.986em;
-	background-color:#f7f7f7;
-    font-family: 'Trebuchet MS';
-}
 .date,
 .exam{
-    background-color: #ffffff;
     position: relative;
 	border-top:#eaeaea 0.118em solid;
 	border-bottom:#eaeaea 0.118em solid;
 	color:#7E7E7E;
-}
-.address-star{
-	background-color:#f7f7f7;
-    color: #8f8f8f;
-    font-size: 0.986em;
-    font-family:  Verdana;
-    text-align: center;
-    border-top: #eaeaea 0.118em solid;
-    margin: 0px;
-}
-.text-warning{
-    color: red;
 }
 .foto{
     margin-bottom: 25px;
 }
 .controls{
     margin-bottom: 30px;
+}
+main section h3{
+    font-size: 16.76px;
+    font-family: Verdana;
+    color: #0479bb;
+    font-weight: 700;
+    margin-top: 130px;
+    text-align: center;
+    height: 50px;
+}
+main section p{
+    font-size: 17.06px;
+    font-family: Verdana;
+    color: #8e8e8e;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.col-md-6 img{
+    margin-bottom: 35px;
+}
+section h2{
+    font-size: 16.77px;
+    font-family: Verdana;
+    color: #057bbd;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    
+}
+li {
+    font-family: Verdana;
+    font-size: 16.77px;
+    margin-bottom: 10px;
+    color: #8f8f8f;
+}
+.job{
+    font-family: Verdana;
+    font-size: 16.76px;
+    margin-top: 80px;
+    color: #8e8e8e;
+}
+.price-offer{
+    font-family: Verdana;
+    font-size: 16.77px;
+    line-height: 22.724px;
+    color: #8f8f8f;
+    text-align: justify;
+    margin: 70px 15px;
+}
+.comment p{
+    font-family: Verdana;
+    font-size: 16.77px;
+    color: #8f8f8f;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+footer{
+    font-size: 16.77px;
+    font-family: Verdana;
+}
+.address-star, .address-star a{
+    font-family:  Verdana;
+    text-align: center;
+    font-size: 16.77px;
+    color: #ffffff;
+}
+footer p{
+    margin: 20px;
+}
+footer img {
+    margin: 5px;
 }
