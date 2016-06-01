@@ -301,3 +301,8 @@ footer p{
 footer img {
     margin: 5px;
 }
+
+.link {
+    margin-bottom: 15px;
+    text-align: center;
+}
